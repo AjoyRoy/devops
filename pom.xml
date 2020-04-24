@@ -60,18 +60,24 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>org.junit.vintage</groupId>
-					<artifactId>junit-vintage-engine</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<optional>true</optional>
 		</dependency>
+		<dependency>
+<groupId>org.junit.jupiter</groupId>
+<artifactId>junit-jupiter-engine</artifactId>
+<version>${junit5.version}</version>
+<scope>compile</scope>
+</dependency>
+<dependency>
+<groupId>org.junit.platform</groupId>
+<artifactId>junit-platform-launcher</artifactId>
+<version>${junit5.platform.version}</version>
+<scope>test</scope>
+</dependency>
 	</dependencies>
 	
 
