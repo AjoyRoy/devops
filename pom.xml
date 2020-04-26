@@ -23,15 +23,13 @@
 	
 	<distributionManagement>
 	<repository>
-	<id>release</id>
-	<name>release</name>
-	<url>http://localhost:8082/artifactory/libs-release-local/</url>
-	</repository>
-	
-	
+        <id>central</id>
+        <name>DESKTOP-VKH5FNR-releases</name>
+        <url>http://localhost:8081/artifactory/libs-release-local</url>
+    </repository>	
     <snapshotRepository>
-        <id>snapshot</id>
-        <name>snapshot</name>
+        <id>snapshots</id>
+        <name>DESKTOP-VKH5FNR-snapshots</name>
         <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 		
